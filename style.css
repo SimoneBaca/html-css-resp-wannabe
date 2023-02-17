@@ -130,10 +130,43 @@ img {
   ************************************************/
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 759px) {
     .container {
         width: 100%;
         transition: .25s all linear;
     }
 }
-/*tablet/*
+/*tablet_fine*/
+
+@media screen and (max-width: 479px) {
+    
+    
+    .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    .text {
+        font-size: 1.25rem;
+    }
+    .site-header {
+        margin: 0;
+        padding-top: 3rem;
+    }
+
+
+
+
+}
