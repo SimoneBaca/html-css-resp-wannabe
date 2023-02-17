@@ -130,9 +130,10 @@ img {
   ************************************************/
 
 
-@media screen and (min-width: 760px) and (max-width: 1160px) {
+@media screen and (max-width: 768px) {
     .container {
         width: 100%;
+        transition: .25s all linear;
     }
 }
 /*tablet/*
